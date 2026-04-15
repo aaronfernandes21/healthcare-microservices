@@ -1,0 +1,56 @@
+# =========================
+# 🧱 Java / Spring Boot
+# =========================
+target/
+build/
+*.class
+*.jar
+*.war
+*.log
+
+# =========================
+# 🔐 Environment & Secrets
+# =========================
+.env
+.env.*
+application-local.properties
+application-dev.properties
+application-prod.properties
+**/application.properties
+
+# (Optional: ONLY if you really don’t want to push them)
+# application.properties
+
+# =========================
+# 🐳 Docker
+# =========================
+*.tar
+docker-compose.override.yml
+
+# =========================
+# 💻 IDE / Editor
+# =========================
+.idea/
+*.iml
+*.swp
+*.swo
+
+# =========================
+# 🖥️ OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 📦 Logs & temp files
+# =========================
+logs/
+tmp/
+*.tmp
+
+# =========================
+# 📊 Database (local files)
+# =========================
+*.db
+
+

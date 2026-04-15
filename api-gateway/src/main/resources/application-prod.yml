@@ -1,0 +1,4 @@
+gateway:
+  services:
+    patient: http://patient-service:4000
+    auth: http://auth-service:4005

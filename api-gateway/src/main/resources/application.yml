@@ -1,0 +1,4 @@
+gateway:
+  services:
+    patient: http://host.docker.internal:4000
+    auth: http://host.docker.internal:4005
