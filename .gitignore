@@ -1,5 +1,5 @@
 # =========================
-# 🧱 Java / Spring Boot
+# Java / Spring Boot
 # =========================
 target/
 build/
@@ -9,7 +9,7 @@ build/
 *.log
 
 # =========================
-# 🔐 Environment & Secrets
+# Environment & Secrets
 # =========================
 .env
 .env.*
@@ -22,13 +22,13 @@ application-prod.properties
 # application.properties
 
 # =========================
-# 🐳 Docker
+# Docker
 # =========================
 *.tar
 docker-compose.override.yml
 
 # =========================
-# 💻 IDE / Editor
+#  IDE / Editor
 # =========================
 .idea/
 *.iml
@@ -36,13 +36,13 @@ docker-compose.override.yml
 *.swo
 
 # =========================
-# 🖥️ OS files
+# OS files
 # =========================
 .DS_Store
 Thumbs.db
 
 # =========================
-# 📦 Logs & temp files
+#  Logs & temp files
 # =========================
 logs/
 tmp/
