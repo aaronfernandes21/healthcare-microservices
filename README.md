@@ -1,10 +1,10 @@
-# 📦 Healthcare Microservices
+#  Healthcare Microservices
 
 A scalable healthcare management system built using Spring Boot microservices architecture, featuring REST APIs, asynchronous communication with Kafka, and gRPC (Protobuf) for efficient inter-service communication. Fully containerized using Docker for consistent deployment.
 
 ---
 
-# 🚀 Tech Stack
+# Tech Stack
 
 - Spring Boot – Microservices framework  
 - REST APIs – External communication  
@@ -15,7 +15,7 @@ A scalable healthcare management system built using Spring Boot microservices ar
 
 ---
 
-# 🧩 Microservices Overview
+# Microservices Overview
 
 | Service | Description |
 |--------|------------|
@@ -28,22 +28,22 @@ A scalable healthcare management system built using Spring Boot microservices ar
 
 ---
 
-# 🔗 Architecture
+#  Architecture
 
 ## Communication Types
 
-### 🌐 REST APIs
+###  REST APIs
 - Used for client → system communication  
 - Routed via API Gateway  
 
-### 📡 Kafka (Event Streaming)
+###  Kafka (Event Streaming)
 - Used for asynchronous communication  
 - Enables loose coupling between services  
 
 **Example flow:**
 - Patient created → event published → analytics & billing consume it  
 
-### ⚡ gRPC (Protocol Buffers)
+###  gRPC (Protocol Buffers)
 - Used for high-performance service-to-service calls  
 - Efficient binary communication  
 - Strongly typed contracts using `.proto` files  
